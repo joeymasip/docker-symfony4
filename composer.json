@@ -13,6 +13,8 @@
         "symfony/framework-bundle": "4.2.*",
         "symfony/maker-bundle": "^1.9",
         "symfony/orm-pack": "^1.0",
+        "symfony/routing": "4.2.*",
+        "symfony/security-bundle": "4.2.*",
         "symfony/twig-bundle": "4.2.*",
         "symfony/validator": "4.2.*",
         "symfony/yaml": "4.2.*"
@@ -63,6 +65,7 @@
         }
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.0",
         "symfony/profiler-pack": "^1.0"
     }
 }
