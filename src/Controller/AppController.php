@@ -15,10 +15,18 @@ use Symfony\Component\HttpFoundation\Response;
 class AppController extends Controller
 {
     /**
-     * @Route("/", name="list")
+     * @Route("/list", name="list")
      */
-    public function index(): Response
+    public function list(): Response
     {
         return $this->render('list.html.twig');
+    }
+
+    /**
+     * @Route("/", name="index")
+     */
+    public function index()
+    {
+        return $this->render('index.html.twig');
     }
 }
